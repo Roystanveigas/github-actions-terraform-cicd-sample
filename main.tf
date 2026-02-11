@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "s306022024"
+    bucket         = "nemointergartionwithgit-terra"
     key            = "terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-south-1"
   }
 }
 
@@ -40,4 +40,5 @@ resource "aws_instance" "example" {
   lifecycle {
     create_before_destroy = true
   }
+
 }
