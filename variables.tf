@@ -15,10 +15,11 @@ variable "key_name" {
 
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket for remote state"
-  default = "tfdemo16112023"
+  default = "nemointergartionwithgit-terra"
 }
 
 variable "name" {
   description = "Name of EC2 Intance"
 
 }
+
